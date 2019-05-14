@@ -1,0 +1,11 @@
+[requires]
+clsocket/master@wolfee/testing
+
+[generators]
+cmake
+
+[imports]
+lib, *.pdb -> ./lib
+lib, *.lib -> ./lib
+lib, *.so -> ./lib
+lib, *.a -> ./lib
